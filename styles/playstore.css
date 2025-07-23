@@ -1,0 +1,40 @@
+/* font section  */
+
+.google-sans-code-font {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* header section style start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.link{
+    list-style: none;
+}
+.link a{
+    text-decoration: none;
+    color: rgba(0,0,0,.6);
+    font-size: 1.24rem;
+    font-weight: 500;
+}
+.search{
+    padding-right: 2rem;
+}
+
+@media (max-width:576px) {
+    .links{
+        display: none;
+    }
+}
